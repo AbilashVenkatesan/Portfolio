@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css?family=helvetica-w02-light');
+
+html{
+scroll-behavior: smooth;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+      box-sizing: border-box;
+    }
+    
+    body {
+      margin: 0;
+      font-family: Arial;
+      font-size: 17px;
+      max-height: 100%;
+      max-width: 100%;
+      background-color: black;
+      color: white;
+    }
+    
+    #myVideo {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%; 
+      min-height: 100%;
+    }
+    
+    .intro {
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      position: fixed;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.75);
+      color: #f1f1f1;
+      width: 100%;
+      padding: 20px;
+    }
+    
+    #myBtn {
+      width: 200px;
+      font-size: 18px;
+      padding: 10px;
+      border: none;
+      background: #000;
+      color: #fff;
+      cursor: pointer;
+    }
+    
+    #myBtn:hover {
+      background: #ddd;
+      color: black;
+    }
+
+    .em{
+        font-weight: bolder;
+        color: yellow;
+    }
+
+    .logo>a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .logo>a>h1{
+      padding-left: 2em;
+    }
+
+    .navigation>a{
+        text-decoration: none;
+        color: black;
+        font-weight: bolder;
+        font-size: 1.5em;
+    }
+
+.page-header{
+    display: flex;
+    justify-content: space-between;
+    font-family: normal normal normal 13px/1.4em helvetica-w01-light,helvetica-w02-light,sans-serif;
+    background-image: url(/assets/media/pexels-kaboompics-com-5836.jpg);
+    background-size: cover;
+    padding-top: 7.5em;
+    padding-bottom: 15em;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2.5em;
+    font-family: normal normal normal 13px/1.4em helvetica-w01-light,helvetica-w02-light,sans-serif;
+    background-color: white;
+    position: absolute;
+    position: fixed;
+    width: 100%;
+}
+
+.content{
+    padding-right: 1em;
+    padding-left: 1em;
+    font-family: normal normal normal 13px/1.4em helvetica-w01-light,helvetica-w02-light,sans-serif;
+    font-size: xx-large;
+}
+
+.content>h1{
+  padding-left: 2em;
+  color: red;
+}
+
+.resume>h4{
+  padding-left: 2em;
+}
+
+.about{
+  display: flex;
+}
+
+.about-txt{
+  padding-right: 10em;
+}
+
+.span {
+  width: 50%;
+  background: yellow;
+  display: block;
+  height: 5px;
+  margin-top: 5em;
+  padding-left: 15em;
+  margin-left: 15em;
+}
+
+.span1 {
+  width: 50%;
+  background: yellow;
+  display: block;
+  height: 5px;
+  margin-top: 5em;
+  padding-left: 15em;
+  margin-left: 15em;
+}
+
+.span2 {
+  width: 50%;
+  background: yellow;
+  display: block;
+  height: 5px;
+  margin-top: 5em;
+  padding-left: 15em;
+  margin-left: 15em;
+  margin-bottom: -5em;
+}
+
+.skills{
+    display: flex;
+    padding-top: 2em;
+}
+
+.skills-txt{
+  padding-right: 10em;
+}
+
+.experience{
+  font-size: 25px;
+  padding-right: 15em;
+}
+
+.wrk-exp{
+  padding-top: 5em;
+}
+
+.wrk-txt{
+  padding-left: 4em;
+}
+
+.project{
+  padding-left: 4em;
+}
+
+.contact{
+  display: grid;
+  grid-template-columns: 1fr, 1fr;
+  grid-template-areas: "email phone";
+}
+
+.contact-email{
+  grid-area: email;
+}
+
+.hr5{
+  width: 50%;
+  position: absolute;
+  left: 0;
+}
+
+.contact-email>ol{
+  justify-content: space-evenly;
+}
+
+.contact-email>ol>li{
+  list-style-type: none;
+  justify-items: space-evenly;
+}
+
+.contact-email>ol>li>a{
+  text-decoration: none;
+  color: yellow;
+  padding-left: 1em;
+}
+
+.linked-in{
+  padding-left: 1em;
+  padding-bottom: 1em;
+}
+
+.twitter{
+  padding-top: 1em;
+  padding-left: .5em;
+}
+
+.contact-phone{
+  grid-area: phone;
+  padding-left: 15em;
+}
+
+.contact-phone>ol>li{
+  list-style-type: none;
+  color: yellow;
+  padding-left: 1em;
+}
+
+.textbox{
+  padding: .5em;
+  width: 50%;
+}
+
+.submit{
+  background-color: yellow;
+  padding: 1em;
+  border-radius: 1em;
+  width: 10em;
+  margin-left: 10em;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 5em;
+    margin-bottom: -30em;
+    margin-top: 10em;
+    background-image: url(/assets/media/pexels-anna-shvets-3683056.jpg);
+    background-color: gray;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    position:absolute;
+    bottom: -50;
+    width: 100%;
+}
